@@ -1,0 +1,13 @@
+app:
+  port: 80
+
+mysql:
+  dsn: 
+  MaxOpenConns: 100
+  MaxIdleConns: 20
+
+jwt:
+    signing-key: 8523f3f7-bc15-400b-8752-fea95050efce
+    expires-time: 7d
+    buffer-time: 1d
+    issuer: qmPlus
